@@ -1,0 +1,130 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                 Id="84c61c5c-1b9f-4820-8150-1608963598e7">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="1e6b5941-11d8-4178-8b33-634dc904679a">
+            <Content.Layers>
+                <Layer Id="d0d693a2-ce71-4ab1-9dad-22fd679b69d4" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="fff5e2d1-bc7b-4e51-bbe6-186781961908" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="7de805be-3e4f-4e5d-90e6-586ac1ed2155" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="80443087-dfad-45b3-8619-353845940d04" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/25/2018 18:52:49" Id="c7aeceb0-dab7-47be-881f-76b2738986e0">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0888cea8-c83f-49c4-af6a-c632987b7bc6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <Image SourcePath="assets/man.png" DevicePixelRatio="0.5" Id="c1f04e30-b0c3-4505-9e05-d4c839f2c85b" Panel.Bounds="123,15,128{5,2147483647},128{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandSwitchTo SceneId="c7a8f148-0e50-433f-a24c-74e784662324" Created="05/25/2018 18:58:48" Id="b64cd2cb-117c-4f3b-b0ce-8cc2f9cea7a0" />
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:Label RichText="Tap image to change it" FontFamily="Roboto" Id="d6ee4d87-3eb4-4a86-8048-db432dcbcd21" Panel.Bounds="115,154,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:TextField Text="067 - 475 66 99" WatermarkText="Phone number" Border="#FF000000" FontFamily="Roboto" Id="ab6a6be8-5302-47fb-b08b-a1a4f3ce82b0" Panel.Bounds="4,417,365{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Jovan" Border="#FF000000" FontFamily="Roboto" Id="51f8d854-07f8-4f02-b07c-74456bb519c9" Panel.Bounds="4,246,182{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:PasswordField Password="123456789123456789" WatermarkText="Enter password" Border="#FF000000" FontFamily="Roboto" Id="735b8dd6-d8de-4a6e-9aa5-1b33a51137e8" Panel.Bounds="4,361,182{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:PasswordField Password="123456789123456789" WatermarkText="Confirm password" Border="#FF000000" FontFamily="Roboto" Id="12c68ab2-31df-443c-9975-a3edafcaddc6" Panel.Bounds="188,361,181{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Ristic" Border="#FF000000" FontFamily="Roboto" Id="0d935fd2-464a-407e-889b-f752d9ae8363" Panel.Bounds="188,246,181{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="jovan_ristic_14132" Border="#FF000000" FontFamily="Roboto" Id="e39c1d07-e818-4abe-bf22-0b528a0bffdd" Panel.Bounds="4,303,365{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Cancel" Background="#FFE70000" Foreground="#FFFFFFFF" FontFamily="Roboto" Id="bb0ced8e-baef-4192-8b2f-d255acb2194c" Panel.Bounds="2,598,100{25,2147483647},0*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/main_screen.screen" Created="05/25/2018 19:01:39" Id="cc5616f9-12a4-408d-b1df-bd124ca49916">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Finish edit" Background="#FF8DAE47" Foreground="#FFFFFFFF" FontFamily="Roboto" Id="20391ea3-c32b-40d3-a340-1afb29280306" Panel.Bounds="105,598,268{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/main_screen.screen" Created="05/25/2018 19:01:31" Id="48370d7c-eea6-4042-a5dd-4cb11873115f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped man" StateGroup="c7aeceb0-dab7-47be-881f-76b2738986e0" ParentScene="c7aeceb0-dab7-47be-881f-76b2738986e0" Created="05/25/2018 18:58:48" Id="c7a8f148-0e50-433f-a24c-74e784662324">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="800" Id="e8d5102a-99d6-4cc9-bb3b-64d374299968">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Effect="Slide,Right" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4" Duration="800">
+                            <Add.Item>
+                                <Image SourcePath="assets/round_add_photo_alternate_black_36dp.png" DevicePixelRatio="0.5" Id="a4c4da59-4276-4e92-b4b9-db5e9b5822e5" Panel.Bounds="272,53,64{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="c1f04e30-b0c3-4505-9e05-d4c839f2c85b" Effect="Slide,Left" Target="d0d693a2-ce71-4ab1-9dad-22fd679b69d4" Duration="800">
+                            <Add.Item>
+                                <Image SourcePath="assets/round_add_a_photo_black_36dp.png" DevicePixelRatio="0.5" Id="078c9c83-6bc5-467a-9ccd-ab9a844d197b" Panel.Bounds="38,53,64{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Move Top="True" Target="20391ea3-c32b-40d3-a340-1afb29280306" />
+                        <Move Before="20391ea3-c32b-40d3-a340-1afb29280306" Target="bb0ced8e-baef-4192-8b2f-d255acb2194c" />
+                        <Move Before="bb0ced8e-baef-4192-8b2f-d255acb2194c" Target="e39c1d07-e818-4abe-bf22-0b528a0bffdd" />
+                        <Move Before="e39c1d07-e818-4abe-bf22-0b528a0bffdd" Target="0d935fd2-464a-407e-889b-f752d9ae8363" />
+                        <Move Before="0d935fd2-464a-407e-889b-f752d9ae8363" Target="12c68ab2-31df-443c-9975-a3edafcaddc6" />
+                        <Move Before="12c68ab2-31df-443c-9975-a3edafcaddc6" Target="735b8dd6-d8de-4a6e-9aa5-1b33a51137e8" />
+                        <Move Before="735b8dd6-d8de-4a6e-9aa5-1b33a51137e8" Target="51f8d854-07f8-4f02-b07c-74456bb519c9" />
+                        <Move Before="51f8d854-07f8-4f02-b07c-74456bb519c9" Target="ab6a6be8-5302-47fb-b08b-a1a4f3ce82b0" />
+                        <Move Before="ab6a6be8-5302-47fb-b08b-a1a4f3ce82b0" Target="d6ee4d87-3eb4-4a86-8048-db432dcbcd21" />
+                        <Move Before="d6ee4d87-3eb4-4a86-8048-db432dcbcd21" Target="c1f04e30-b0c3-4505-9e05-d4c839f2c85b" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

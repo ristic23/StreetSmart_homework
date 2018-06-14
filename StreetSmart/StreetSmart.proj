@@ -1,0 +1,11 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.2.0.98"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="CMPK2G7UV5NU" StartScreens="/street_smart.screen" IndigoVersion="10" RecentColors="#FFD3E1B5,#FF000000,#FFFFFFFF,#FF9BBB59,#00FFFFFF,#FF349C42,#FFE9F0DA,#FF8D8D8D,#FFC6C6C6,#FF277531" LastUsedFonts="Georgia,Roboto,Courier New,Source Sans Pro,Trebuchet MS">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="375,647">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>

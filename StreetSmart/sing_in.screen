@@ -1,0 +1,132 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                 xmlns:i2="http://prototypes.infragistics.com/ios/"
+                                                                                 Id="4b3ee07a-263a-4200-be96-cf8511d5e721">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="d06f1b19-6dc1-4378-8327-39e7e9875093">
+            <Content.Layers>
+                <Layer Id="b1bd9c67-c47a-424c-894a-030e85e14891" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="be3569f5-0add-4afb-a99b-c6414d7c1f67" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="50dfc7f7-26f8-497e-ab30-6ad2c2945aae" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1cac8e0f-b849-49d9-8d5a-bf7e17775610" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/21/2018 20:14:46" Id="c2ee7910-7dd8-4aee-9d97-4fba38fc9bef">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d1de39db-4675-4f58-886d-dc9f11893adf">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Enter username" Border="#FF000000" FontFamily="Roboto" Id="981cb716-d05a-45af-8cbb-7fca976d6f17" Panel.Bounds="88,244,200{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;48&quot; &gt;Sign in&lt;/Run&gt;" FontFamily="Roboto" Id="8a9e2486-5632-4f3b-b692-8b70727bfb73" Panel.Bounds="112,73,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:PasswordField WatermarkText="Enter password" Border="#FF000000" FontFamily="Roboto" Id="e3a5847f-be80-4fd7-8b52-1bcea9760f11" Panel.Bounds="88,329,200{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Back" Background="#FFE70000" Foreground="#FFFFFFFF" FontFamily="Roboto" Id="7de53c40-633e-4213-86d1-55737c3a6c1d" Panel.Bounds="0,568,100{25,2147483647},0*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/street_smart.screen" Created="05/21/2018 20:16:41" Id="46af5dd9-7edb-41c8-be16-2f63736afc4c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" Direction="Right" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Sign me in" Background="#FF8DAE47" Foreground="#FFFFFFFF" FontFamily="Roboto" Id="fdee7523-1589-49ad-ba32-662edf52d07f" Panel.Bounds="103,568,268{25,2147483647},0*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/main_screen.screen" Created="05/21/2018 21:01:28" Id="a0d4146a-f237-40f6-9c38-db18df2125ad">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="981cb716-d05a-45af-8cbb-7fca976d6f17" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:PageControlContent Id="3ac0b062-6bcb-4f06-882d-eb5b6965651e" CompositeControl.Key="d09b7568-f803-4344-868e-e6d5b0fd5517" Panel.Bounds="0,0,375{5,2147483647},612{5,2147483647}">
+                                    <i:PageControlContent.Items>
+                                        <i2:ContainerListItem Text="Page 1 Content" Id="3bee58a7-622f-45b5-ad2b-ddebc337c096" i2:ContainerListControl.ItemKey="57acffa7-4a00-4b6e-874e-459a91728c8b">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="be6bf4a2-b3f1-442d-b7c8-d8a8271738ee" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="Page 2 Content" Id="ba38f2a6-164a-4983-b57d-4f9f5f130257" i2:ContainerListControl.ItemKey="44c7bf1c-b0a4-4547-8f1b-9d55125cc239">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="cf269a3c-822e-4027-a10d-17d58364624b" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="New Item Content" Id="45c2e180-b029-449f-b1d4-0f1a2a1e8e23" i2:ContainerListControl.ItemKey="023f0b23-0f9f-4e43-9a5f-177e975d6482">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="39d472a6-d67f-42d8-bc2f-4553d3048632" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="Page 3 Content" IsSelected="True" Id="609b81c0-86dc-40be-afe1-c5eaa2fe2999" i2:ContainerListControl.ItemKey="77539dcc-7e88-409f-ac3e-3713e09d8c8f">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="d8bb5508-9d58-458d-a87a-ddac205e6215" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                    </i:PageControlContent.Items>
+                                </i:PageControlContent>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="981cb716-d05a-45af-8cbb-7fca976d6f17" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:PageControlButtons Id="d3eabb62-f31a-4f50-90ac-e27c41113549" CompositeControl.Key="d09b7568-f803-4344-868e-e6d5b0fd5517" Panel.Bounds="154,624,5*{5,2147483647},5*{5,2147483647}">
+                                    <i:PageControlButtons.Items>
+                                        <i:PageControlItem Text="Page 1" Id="675a4209-3b89-4dc5-a4e5-672b86eb00ff" i2:ContainerListControl.ItemKey="57acffa7-4a00-4b6e-874e-459a91728c8b" />
+                                        <i:PageControlItem Text="Page 2" Id="00385be5-28ab-4116-bfca-afb1ac2f372b" i2:ContainerListControl.ItemKey="44c7bf1c-b0a4-4547-8f1b-9d55125cc239" />
+                                        <i:PageControlItem Text="New Item" Id="e5a62040-89fc-4e05-874e-4a501d6a4b35" i2:ContainerListControl.ItemKey="023f0b23-0f9f-4e43-9a5f-177e975d6482" />
+                                        <i:PageControlItem Text="Page 3" IsSelected="True" Id="48de57b5-bc9b-4a14-b3bc-1739e0ce86bf" i2:ContainerListControl.ItemKey="77539dcc-7e88-409f-ac3e-3713e09d8c8f" />
+                                    </i:PageControlButtons.Items>
+                                </i:PageControlButtons>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;16&quot; Foreground=&quot;#FF81ABE0&quot; TextDecorations=&quot;Underline&quot; &gt;Forgot password?&lt;/Run&gt;" Align="Center" FontFamily="Roboto" Id="1c7d52b0-2e26-4486-8425-b95c67f087b9" Panel.Bounds="87,379,200{5,2147483647},22*{5,2147483647}">
+                                    <i:Label.Click>
+                                        <CommandNavigate Screen="/forgot_password.screen" Created="05/25/2018 18:06:45" Id="1ce761b1-cc0c-492f-afde-f6777d2123a6">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:Label.Click>
+                                </i:Label>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="b1bd9c67-c47a-424c-894a-030e85e14891">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontFamily=&quot;Georgia&quot; FontStyle=&quot;Italic&quot; &gt;Street Smart&lt;/Run&gt;" Align="Center" Foreground="#FF349C42" FontSize="48" FontFamily="Courier New" Id="2f770762-2f37-4006-8993-c1fbc5c695f0" Panel.Bounds="12,6,350{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

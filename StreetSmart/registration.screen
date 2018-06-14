@@ -1,0 +1,154 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                 xmlns:i2="http://prototypes.infragistics.com/ios/"
+                                                                                 Id="7698cdd9-9e6b-4733-841d-2d2095bc1b9c">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="86b1f473-1830-4102-92cc-a933fc02acba">
+            <Content.Layers>
+                <Layer Id="4f1fab7c-0419-4580-a156-0c9941973db4" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="72f3ff64-5ad6-44ee-859e-ae3fee7c6247" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="961ce16a-4692-4ba5-8f15-ea004fc05e03" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="0d515df5-e092-4bf1-bc91-f49b5a56a61e" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/21/2018 19:59:36" Id="bfef07ee-b88f-4bed-9d61-70f3235c36fc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e7a46d47-68bc-4afd-b1e1-248e0631bdad">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Phone number" Border="#FF000000" FontFamily="Roboto" Id="49d19835-28dd-4dd9-baae-9fde5de4827e" Panel.Bounds="5,327,365{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Enter first name" Border="#FF000000" FontFamily="Roboto" Id="aa6839e9-b8b5-4560-9b35-977d0be4cbd1" Panel.Bounds="5,202,182{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:PasswordField WatermarkText="Enter password" Border="#FF000000" FontFamily="Roboto" Id="3bb9d00f-ac96-4dda-9e86-54934c1fe00f" Panel.Bounds="5,286,182{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:PasswordField WatermarkText="Confirm password" Border="#FF000000" FontFamily="Roboto" Id="a50de406-afc9-46ba-acf1-1c2ac04914f3" Panel.Bounds="189,286,181{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontSize=&quot;48&quot; &gt;Register&lt;/Run&gt;" FontFamily="Roboto" Id="0fbb692d-36b0-44d3-b921-8c8def1ad337" Panel.Bounds="96,71,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="49d19835-28dd-4dd9-baae-9fde5de4827e" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:PageControlContent Id="bce8380f-4162-4b10-bfb0-af62ff477771" CompositeControl.Key="9a978c14-2536-4a60-a765-d3bc50ebf163" Panel.Bounds="-1,1,375{5,2147483647},601{5,2147483647}">
+                                    <i:PageControlContent.Items>
+                                        <i2:ContainerListItem Text="Page 1 Content" Id="77ab0fbd-a8b0-44f0-9f33-13556b7c4940" i2:ContainerListControl.ItemKey="2d259dbb-c23f-451e-94a8-7d2355302f3a">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="9125fb11-547d-46d9-a9f6-177b27135706" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="Page 2 Content" IsSelected="True" Id="b28dbb3b-f2d0-4dd9-b77e-1f5141b33d53" i2:ContainerListControl.ItemKey="6c29a553-e79b-4d64-9e8d-ddc3e2dccae3">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="0f69c715-d35f-46ae-8c7c-0556ea102f6b" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="New Item Content" Id="c49a4605-cd7e-4bf0-84b4-493367674ebe" i2:ContainerListControl.ItemKey="e1823b1f-8780-4d36-a548-3ebbeed8b80e">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="2d321e3c-8eeb-4367-bff7-d837579050bf" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="Page 3 Content" Id="fa95b23c-500b-4a5d-b94a-f7d3f6b29bb3" i2:ContainerListControl.ItemKey="f6afc709-5139-4eca-9e62-3dd3f0296f41">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="f6970f8d-564b-4073-bfae-1b44cc2a9b47" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                    </i:PageControlContent.Items>
+                                </i:PageControlContent>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="49d19835-28dd-4dd9-baae-9fde5de4827e" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:PageControlButtons Id="c37ea87b-93f8-4c59-bebc-4e769df6d3dd" CompositeControl.Key="9a978c14-2536-4a60-a765-d3bc50ebf163" Panel.Bounds="153,613,5*{5,2147483647},5*{5,2147483647}">
+                                    <i:PageControlButtons.Items>
+                                        <i:PageControlItem Text="Page 1" Id="577722cf-7f21-42ed-b751-04561248da3f" i2:ContainerListControl.ItemKey="2d259dbb-c23f-451e-94a8-7d2355302f3a" />
+                                        <i:PageControlItem Text="Page 2" IsSelected="True" Id="e44430d4-c980-47e9-8a20-75d842ed935d" i2:ContainerListControl.ItemKey="6c29a553-e79b-4d64-9e8d-ddc3e2dccae3" />
+                                        <i:PageControlItem Text="New Item" Id="942cc7e6-c563-4885-acef-42568a8438ed" i2:ContainerListControl.ItemKey="e1823b1f-8780-4d36-a548-3ebbeed8b80e" />
+                                        <i:PageControlItem Text="Page 3" Id="5f007270-50c5-4413-a948-e8d99f9c806e" i2:ContainerListControl.ItemKey="f6afc709-5139-4eca-9e62-3dd3f0296f41" />
+                                    </i:PageControlButtons.Items>
+                                </i:PageControlButtons>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Back" Background="#FFE70000" Foreground="#FFFFFFFF" FontFamily="Roboto" Id="903b791e-08ec-42d4-9de0-9225ca38db2b" Panel.Bounds="-1,558,100{25,2147483647},0*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/street_smart.screen" Created="05/21/2018 20:13:22" Id="2d7bbe72-5d6e-41cb-bdbb-9aaa40b354ea">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" Direction="Right" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Finish" Background="#FF8DAE47" Foreground="#FFFFFFFF" FontFamily="Roboto" Id="b3f567e8-ea27-4c6a-a331-2cfce4884fb5" Panel.Bounds="102,558,268{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/sing_in.screen" Created="05/21/2018 20:39:43" Id="dc25101e-99d7-4a0c-9747-a83aa0bea398">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Enter last name" Border="#FF000000" FontFamily="Roboto" Id="bd956c8a-310b-48f9-ad46-6a939cf10e6a" Panel.Bounds="189,202,181{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:TextField WatermarkText="Enter username" Border="#FF000000" FontFamily="Roboto" Id="f572c0bc-4b81-40a4-a713-2f296d1834bf" Panel.Bounds="5,244,365{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <Image SourcePath="assets/round_add_a_photo_black_36dp.png" DevicePixelRatio="0.5" Id="9873ef55-c8e7-4f2b-97af-4064c910d627" Panel.Bounds="97,410,64{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <Image SourcePath="assets/round_add_photo_alternate_black_36dp.png" DevicePixelRatio="0.5" Id="65dd54b9-ca9a-42f6-93de-5a2437af4a38" Panel.Bounds="214,410,64{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;21&quot; &gt;Add profile image:&lt;/Run&gt;" FontFamily="Roboto" Id="4d8c4b88-272c-49f8-a4de-1ce9a4f8a017" Panel.Bounds="94,375,186{5,2147483647},28*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4f1fab7c-0419-4580-a156-0c9941973db4">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontFamily=&quot;Georgia&quot; FontStyle=&quot;Italic&quot; &gt;Street Smart&lt;/Run&gt;" Align="Center" Foreground="#FF349C42" FontSize="48" FontFamily="Courier New" Id="912eaf11-d219-4436-b21a-93dcbd3e5222" Panel.Bounds="12,6,350{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

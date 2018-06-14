@@ -1,0 +1,140 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.2.0.98"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                 xmlns:i2="http://prototypes.infragistics.com/ios/"
+                                                                                 Id="2fec18c9-b0c4-4f93-958c-e577e7a9960b">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="128ca20f-4fb8-4d85-9833-e97c57514de5">
+            <Content.Layers>
+                <Layer Id="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="b11c23f1-78b5-4ed2-a680-0465bca2c6a8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="82809d48-8085-4c58-ab36-0b404968506d" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="81b09c73-aced-4877-90d5-232b5092c2bb" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Sign in/registration" Created="05/18/2018 20:54:28" Id="861072e1-b15a-49cc-ad38-858ceb1130f2">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="800" Id="a1fde3c6-44ec-4b4e-98b4-734868fda759">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Effect="Pop" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Duration="800">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;36&quot; FontFamily=&quot;Roboto&quot; &gt;You wanna have fun?&lt;/Run&gt;" Align="Center" FontStyle="Bold" Id="a7dba6a8-f3b4-4ba4-930d-2bc1fb9f95f0" Panel.Bounds="0,126,375{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Effect="Pop" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Duration="800">
+                            <Add.Item>
+                                <Label RichText="* * * Sing In With * * *" Align="Center" FontFamily="Roboto" Id="5d611f5f-5d31-4369-9aa6-9e6d1fa97372" Panel.Bounds="0,183,375{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Effect="Pop" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Duration="600">
+                            <Add.Item>
+                                <Image SourcePath="assets/facebook_login.png" DevicePixelRatio="0.5" Id="cf3a2e30-6d94-48c4-9b04-75c662298f63" Panel.Bounds="52,223,270{5,2147483647},0*{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/sing_in.screen" Created="05/21/2018 20:17:49" Id="1e37aed7-c58d-4b10-b190-339964b6336a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Effect="Pop" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Duration="600">
+                            <Add.Item>
+                                <Image SourcePath="assets/email_login.png" DevicePixelRatio="0.5" Id="8d8d6f52-19a9-4597-aa51-cf553c7840f4" Panel.Bounds="53,305,270{5,2147483647},63{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/sing_in.screen" Created="05/21/2018 20:17:58" Id="e53d30e2-482d-4ab2-8ab6-5602b96af445">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Effect="Pop" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Duration="600">
+                            <Add.Item>
+                                <Image SourcePath="assets/twitter_login.png" DevicePixelRatio="0.5" Id="cfa80233-1d7a-427a-9bd0-145cc92bc01a" Panel.Bounds="52,387,277{5,2147483647},63{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/sing_in.screen" Created="05/21/2018 20:18:24" Id="26495569-41ff-4483-b43b-3d9dfd0ec666">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Effect="Pop" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b" Duration="800">
+                            <Add.Item>
+                                <Label RichText="Or, &lt;Run Foreground=&quot;#FF81ABE0&quot; TextDecorations=&quot;Underline&quot; &gt;make new account&lt;/Run&gt;" Align="Center" FontSize="16" FontFamily="Roboto" Id="97ffb5d0-afe5-4ccd-b7c6-5c51e0a18b0c" Panel.Bounds="108,488,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandNavigate Screen="/registration.screen" Created="05/21/2018 20:06:15" Id="5d7dcbd5-58d6-4c11-afea-b9ae692dcab8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Label.Click>
+                                </Label>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="a7dba6a8-f3b4-4ba4-930d-2bc1fb9f95f0" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b">
+                            <Add.Item>
+                                <i:PageControlContent Id="a1884f6d-efcc-4be5-8caa-34f14e6dba7e" CompositeControl.Key="fad28f85-66b0-462d-b996-7dfd09a5539f" Panel.Bounds="0,0,378{5,2147483647},609{5,2147483647}">
+                                    <i:PageControlContent.Items>
+                                        <i2:ContainerListItem Text="Page 1 Content" IsSelected="True" Id="5e6ead59-488f-4971-8c5e-0e33d1e6fb13" i2:ContainerListControl.ItemKey="9919d68b-2ede-4bb5-8c07-88ef6b4767ef">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="ddd4bb82-cf1d-4916-956e-b4ed36a1b060" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="New Item Content" Id="e8aa691b-2298-4744-8535-3e3d1b62795d" i2:ContainerListControl.ItemKey="ffd20ff8-2f5b-4d10-a240-6426b4dca899">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="29d46f0d-ebff-4355-9ad9-303df3fd0d17" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="Page 2 Content" Id="1653c653-9531-4a3c-9e17-50f1d18b9d6a" i2:ContainerListControl.ItemKey="71d134f3-4e22-4862-aac5-fb747d40345c">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="2b44b6cc-2930-4ac1-a126-f9a1837c20f7" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                        <i2:ContainerListItem Text="Page 3 Content" Id="b24b7b8a-4f6d-4477-a501-b748c9685c56" i2:ContainerListControl.ItemKey="d7e69c31-8dc4-479e-8311-f0459e30afce">
+                                            <i2:ContainerListItem.Content>
+                                                <Container ClipToContainer="True" Id="6dd63960-95b0-49c1-9ad3-bab4802215f3" />
+                                            </i2:ContainerListItem.Content>
+                                        </i2:ContainerListItem>
+                                    </i:PageControlContent.Items>
+                                </i:PageControlContent>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="a7dba6a8-f3b4-4ba4-930d-2bc1fb9f95f0" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b">
+                            <Add.Item>
+                                <i:PageControlButtons Id="4285669a-452e-45c7-b2c4-61c2e6946a1c" CompositeControl.Key="fad28f85-66b0-462d-b996-7dfd09a5539f" Panel.Bounds="155,621,5*{5,2147483647},5*{5,2147483647}">
+                                    <i:PageControlButtons.Items>
+                                        <i:PageControlItem Text="Page 1" IsSelected="True" Id="ea5fd07d-d161-442b-a062-880ac578b3f6" i2:ContainerListControl.ItemKey="9919d68b-2ede-4bb5-8c07-88ef6b4767ef" />
+                                        <i:PageControlItem Text="New Item" Id="db900327-bb28-4721-b73d-9a2c930c5e84" i2:ContainerListControl.ItemKey="ffd20ff8-2f5b-4d10-a240-6426b4dca899" />
+                                        <i:PageControlItem Text="Page 2" Id="b4bb07b2-ce72-49b0-8d76-86dff5a50241" i2:ContainerListControl.ItemKey="71d134f3-4e22-4862-aac5-fb747d40345c" />
+                                        <i:PageControlItem Text="Page 3" Id="523ed542-6c30-4eb2-a3ca-4826daa486a6" i2:ContainerListControl.ItemKey="d7e69c31-8dc4-479e-8311-f0459e30afce" />
+                                    </i:PageControlButtons.Items>
+                                </i:PageControlButtons>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0a7d48b-a976-4b03-bdfa-bc973c2c966b">
+                            <Add.Item>
+                                <i:Title RichText="&lt;Run FontFamily=&quot;Georgia&quot; FontStyle=&quot;Italic&quot; &gt;Street Smart&lt;/Run&gt;" Align="Center" Foreground="#FF349C42" FontSize="48" FontFamily="Courier New" Id="124631f2-8569-42b7-aee1-6c6ec1a9ffdd" Panel.Bounds="15,9,350{5,2147483647},56{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
